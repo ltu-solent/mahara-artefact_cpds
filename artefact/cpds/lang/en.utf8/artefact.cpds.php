@@ -64,6 +64,7 @@ $string['editactivity'] = 'Edit activity';
 $string['editingactivity'] = 'Editing activity';
 $string['myactivities'] = 'Activities';
 $string['newactivity'] = 'New activity';
+$string['newcpd'] = 'New CPD';
 $string['noactivities'] = 'No activities to display.';
 $string['noactivitiesaddone'] = 'No activities yet. %sAdd one%s!';
 $string['saveactivity'] = 'Save activity';
@@ -84,4 +85,3 @@ $string['progress_activity'] = array(
     'Add an activity to any CPD',
     'Add %s activities to any CPD',
 );
-
