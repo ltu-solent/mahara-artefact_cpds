@@ -13,15 +13,14 @@
         <div id="cpds_page_container" class="hidden">
             {$activities.pagination|safe}
         </div>
-        <script>
+        <!-- <script>
         addLoadEvent(function() {literal}{{/literal}
             {$activities.pagination_js|safe}
             removeElementClass('cpds_page_container', 'hidden');
         {literal}}{/literal});
-        </script>
+        </script> -->
         {/if}
     {else}
         <div class="lead text-center content-text">{str tag='noactivities' section='artefact.cpds'}</div>
     {/if}
 </div>
-
